@@ -1,0 +1,180 @@
+.text{
+    position: relative;
+    display: grid;
+    color: #ffff;
+    place-items: center;
+    top: 17vh;
+}
+
+.input1{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 24vh;
+    border: solid #1E90FF 3px;
+    width: 450px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input1[type=number]::-webkit-inner-spin-button, 
+.input1[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.input1[type=number] { -moz-appearance:textfield; }
+
+.input1:focus {
+    border: solid #125393 3px;
+}
+
+/*dsadsdsadsasdasaddas*/
+
+
+.input2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45vh;
+    border: solid #1E90FF 3px;
+    width: 450px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input2[type=number]::-webkit-inner-spin-button, 
+.input2[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.input2[type=number] { -moz-appearance:textfield; }
+
+.input2:focus {
+    border: solid #125393 3px;
+}
+
+
+/*boton estilos*/
+
+.boton {
+    position: absolute;
+    top: 62vh;
+    width: 450px;
+    background-color: #be2c51;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 474px) {
+    .input1{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 24vh;
+        border: solid #1E90FF 3px;
+        width: 300px;
+        height: 50px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .input2{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 45vh;
+        border: solid #1E90FF 3px;
+        width: 300px;
+        height: 50px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .boton {
+        position: absolute;
+        top: 62vh;
+        width: 300px;
+        background-color: #be2c51;
+        color: white;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+        height: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .text{
+        position: relative;
+        display: grid;
+        color: #ffff;
+        font-size: 25px;
+        place-items: center;
+        top: 17vh;
+    }
+}
+
+@media screen and (max-height: 791px){
+    .input1{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 26vh;
+        border: solid #1E90FF 3px;
+        width: 300px;
+        height: 50px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .input2{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 51vh;
+        border: solid #1E90FF 3px;
+        width: 300px;
+        height: 50px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .boton {
+        position: absolute;
+        top: 74vh;
+        width: 300px;
+        background-color: #be2c51;
+        color: white;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+        height: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text{
+        position: relative;
+        display: grid;
+        color: #ffff;
+        place-items: center;
+        top: 14vh;
+    }    
+}
+
+@media screen and (max-width: 345px){
+    .text{
+        position: relative;
+        display: grid;
+        color: #ffff;
+        font-size: 20px;
+        place-items: center;
+        top: 17vh;
+    }
+}
